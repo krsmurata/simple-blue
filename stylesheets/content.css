@@ -2,13 +2,9 @@
  Header
  --------------------------------------------------------------*/
 #header a {
-	font-size:83px;
-	font-weight:bold;
-	text-shadow:white 2px 2px 0;
-	text-align:right;
-	width:570px;
-	padding:137px 0 50px;
-	letter-spacing:-4px;
+	font-size: 90px;
+	font-weight: bold;
+	text-shadow: white 2px 2px 0;
 }
 
 #header a:link,
@@ -24,15 +20,15 @@
 }
 
 #header h1 {
-	font: bold 400% georgia, serif; 
 	letter-spacing: -1px; 
 	margin: 0;
 	float: left; 
 }
 
 #header h2 {
-	font: normal 12px verdana, arial, sans-serif;  
-	margin: 2.5em 0 0 0.8em;
+	font-size: 20px;
+	text-shadow: white 2px 2px 0;  
+	margin: 1em 0 0 1em;
 	float: left; 
 }
 
@@ -47,8 +43,7 @@
 #content h3,
 #content h4,
 #content h5 { 
-	font-family: "lucidamac bold", "lucida grande", arial, sans-serif; 
-	letter-spacing: -1px;
+	letter-spacing: 1px;
 }
 
 #content h1 { 
@@ -131,13 +126,14 @@
 
 #content .atomentry .title a:link,
 #content .atomentry .title a:visited { 
-	color: #930;
+	color: #bf8a17;
 	text-decoration: none;
+	text-shadow: white 2px 2px 0;  
 }
 
 #content .atomentry .title a:hover,
 #content .atomentry .title a:active { 
-	color: #000;
+	color: #bf8a17;
 	background: transparent;
 }
 
@@ -164,7 +160,7 @@
 #content .atomentry .content {}
 
 #content .atomentry ul.meta { 
-	font-size: 10px;
+	font-size: 14px;
 	background: #eee;
 	margin: 0; padding: 5px;
 	border: 1px solid #ddd;
@@ -173,7 +169,7 @@
 
 #content .atomentry ul.meta li { 
 	line-height: 13px;
-	margin: 0; padding: 0;
+	margin: 0; padding: 2px;
 }
 
 #content .atomentry .meta a:link,
@@ -196,7 +192,7 @@
 
 #content .comment,
 #content .trackback {
-	border: 2px solid #ddd;
+	border: 2px solid #fff;
 	margin: 0 0 1.5em; padding: 1em;
 }
 
@@ -223,6 +219,11 @@
 #content .comment .author .gravatar { 
 	margin: 0 0 0.5em 0.5em;
 	float: right; 
+}
+
+#preview {
+  border: 2px solid #ccc; 
+  padding:10px;
 }
 
 /* uncomment to enable a default gravatar
@@ -260,12 +261,11 @@
 /*--------------------------------------------------------------
  Sidebar
  --------------------------------------------------------------*/
-#sidebar {
-	font-size: 11px; 
-}
 
-#sidebar h3 { 
-	font: bold 14px "lucidamac bold", "lucida grande", verdana, arial, helvetica, sans-serif;
+#sidebar h3 {
+  padding-top: 10px;
+	font-weight: bold;
+	text-shadow: white 2px 2px 0; 
 	margin: 0 0 0.5em;
 }
 
@@ -297,7 +297,8 @@
 }
 
 #sidebar .search p input {
-	font-size: 11px; width: 92%;
+	font-size: 11px;
+  width: 92%;
 }
 
 #sidebar .search .loading {
