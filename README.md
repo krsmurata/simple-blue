@@ -6,8 +6,12 @@ simple-blue
 To install just clone this repository inside your typo theme folder:
 
 `cd typo/themes`
+
 `git clone git@github.com:krsmurata/simple-blue.git` 
+
+You can find a preview of this theme on [kside.net][4].
 
 [1]: http://github.com/krsmurata/simple-blue
 [2]: http://quotedprintable.com/pages/scribbish
 [3]: http://wiki.github.com/fdv/typo/
+[4]: http://kside.net
