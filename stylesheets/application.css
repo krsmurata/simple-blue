@@ -15,6 +15,8 @@ body {
 	font-family: arial, verdana, helvetica, sans-serif;
 }
 
+pre { font-size: 13px; }
+
 abbr  { border: none; }
 cite  { font-style: normal; }
 a img { border: none; padding: 0; margin: 0; }
