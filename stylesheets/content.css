@@ -125,7 +125,15 @@
 	background: transparent;
 }
 
-#content .atomentry .title .comment_count { color: #eee; }
+#content .atomentry .title { color: #eee; }
+
+#content .comment_count {
+  background: url('../../images/theme/comments.png') no-repeat;
+  float:right;
+  color:#48779E;
+  padding-left: 20px;
+  text-decoration: none;
+}
 
 #content .atomentry .author {
 	color: #bbb;

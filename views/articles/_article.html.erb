@@ -1,9 +1,9 @@
 <div class="atomentry" id="article-<%= article.id %>">
   <h2 class="title">
     <%= (controller.action_name.include? 'permalink') ? article.title : link_to_permalink(article,article.title) %>
-    <%= content_tag(:span, article.published_comments.size, :class => 'comment_count') if article.published_comments.size > 0 %>
   </h2>
 
+  <%= link_to_permalink(article, article.published_comments.size, 'comments', 'comment_count') if article.published_comments.size > 0 %>
   <p class="author">
     <%= _("Posted by")%> <cite><%= author_link(article) %></cite>
     <abbr class="published" title="<%= article.published_at.xmlschema %>"><%= js_distance_of_time_in_words_to_now article.published_at %></abbr>
