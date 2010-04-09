@@ -16,24 +16,28 @@ body {
 }
 
 #container {
-	width: 740px;
+	width: 940px;
 	text-align: left; 
 	margin: 0 auto; padding: 0;
 }
 
 #header {
-	height: 60px; 
+	height: 80px; 
 	margin: 0 0 15px; padding: 0;
 }
 
-#page {}
+#page {
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 10px;
+}
 
 #content {
-	width: 500px;
+	width: 640px;
 }
 
 #sidebar {
-	width: 200px;
+	width: 250px;
 }
 
 #footer {

@@ -13,9 +13,10 @@
 
 body {
 	font-family: arial, verdana, helvetica, sans-serif;
+  font-size: 14px;
 }
 
-pre { font-size: 13px; }
+pre { font-size: 12px; }
 
 abbr  { border: none; }
 cite  { font-style: normal; }

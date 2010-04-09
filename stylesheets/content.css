@@ -75,8 +75,6 @@
 }
 
 #content p {
-	line-height: 15px; 
-	margin: 0 0 1.2em;
 }
 
 #content ul,
@@ -90,7 +88,6 @@
 }
 
 #content li {
-	line-height: 15px; 
 	margin: 0 0 0 1em; padding: 0;
 }
 
@@ -107,7 +104,6 @@
 
 #content .atomentry .title {
 	font-size: 24px;
-	line-height: 94%;
 	letter-spacing: -1.5px; 
 	margin: 0;
 }
@@ -116,7 +112,6 @@
 #content .atomentry .title a:visited { 
 	color: #bf8a17;
 	text-decoration: none;
-	text-shadow: white 2px 2px 0;  
 }
 
 #content .atomentry .title a:hover,
@@ -164,7 +159,6 @@
 }
 
 #content .atomentry ul.meta li { 
-	line-height: 13px;
 	margin: 0; padding: 2px;
 }
 
@@ -206,7 +200,6 @@
 #content .comment   .author cite,
 #content .trackback .author cite {
 	font-size: 16px;
-	letter-spacing: -1px;
 }
 
 #content .comment   .author abbr, 
@@ -330,30 +323,6 @@
 #sidebar .search .results a:hover, 
 #sidebar .search .results a:active  {
 	color: #fff;
-}
-
-/* Flickr sidebar-node */
-#sidebar #flickr {
-	margin: 0 0 2em;
-	clear: both;
-}
-
-#sidebar #flickr div {
-}
-
-#sidebar #flickr img { 
-	margin: 0 0 5px;
-	padding: 5px;
-	border: 1px solid #ddd;
-	display: block;
-}
-        
-#sidebar #flickr img:hover {
-	background: #ffc;
-}
-        
-#sidebar #flickr a { 
-	border: none;
 }
 
 /*--------------------------------------------------------------
