@@ -74,7 +74,7 @@
 	border-bottom: 1px dotted #aaa;
 }
 
-#content p {line-height:150%}
+#content p, li {line-height:150%}
 
 #content ul,
 #content ol {
